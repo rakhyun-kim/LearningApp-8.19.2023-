@@ -23,6 +23,7 @@
 		50F3B13D2A915C6900C872A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B13C2A915C6900C872A2 /* Constants.swift */; };
 		50F3B13F2A94DACF00C872A2 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B13E2A94DACF00C872A2 /* CodeTextView.swift */; };
 		50F3B1632A98648900C872A2 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B1622A98648900C872A2 /* RectangleCard.swift */; };
+		50F3B1652A998CA100C872A2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B1642A998CA100C872A2 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		50F3B13C2A915C6900C872A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50F3B13E2A94DACF00C872A2 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		50F3B1622A98648900C872A2 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		50F3B1642A998CA100C872A2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				50F3B1332A914A7B00C872A2 /* ContentView.swift */,
 				50F3B1352A9150CD00C872A2 /* ContentViewRow.swift */,
 				50F3B1372A91585C00C872A2 /* ContentDetailView.swift */,
+				50F3B1642A998CA100C872A2 /* TestView.swift */,
 				50F3B13E2A94DACF00C872A2 /* CodeTextView.swift */,
 				50F3B1622A98648900C872A2 /* RectangleCard.swift */,
 			);
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F3B1652A998CA100C872A2 /* TestView.swift in Sources */,
 				50F3B11A2A910E0A00C872A2 /* HomeView.swift in Sources */,
 				50F3B1322A91428300C872A2 /* HomeViewRow.swift in Sources */,
 				50F3B1342A914A7B00C872A2 /* ContentView.swift in Sources */,

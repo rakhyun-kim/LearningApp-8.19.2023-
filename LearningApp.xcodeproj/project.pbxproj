@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50BAB18D2AA0AF0700A8DD71 /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BAB18C2AA0AF0700A8DD71 /* TestResultView.swift */; };
 		50F3B1182A910E0A00C872A2 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B1172A910E0A00C872A2 /* LearningApp.swift */; };
 		50F3B11A2A910E0A00C872A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B1192A910E0A00C872A2 /* HomeView.swift */; };
 		50F3B11C2A910E0B00C872A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F3B11B2A910E0B00C872A2 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50BAB18C2AA0AF0700A8DD71 /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 		50F3B1142A910E0A00C872A2 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F3B1172A910E0A00C872A2 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		50F3B1192A910E0A00C872A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				50F3B1352A9150CD00C872A2 /* ContentViewRow.swift */,
 				50F3B1372A91585C00C872A2 /* ContentDetailView.swift */,
 				50F3B1642A998CA100C872A2 /* TestView.swift */,
+				50BAB18C2AA0AF0700A8DD71 /* TestResultView.swift */,
 				50F3B13E2A94DACF00C872A2 /* CodeTextView.swift */,
 				50F3B1622A98648900C872A2 /* RectangleCard.swift */,
 			);
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F3B1652A998CA100C872A2 /* TestView.swift in Sources */,
+				50BAB18D2AA0AF0700A8DD71 /* TestResultView.swift in Sources */,
 				50F3B11A2A910E0A00C872A2 /* HomeView.swift in Sources */,
 				50F3B1322A91428300C872A2 /* HomeViewRow.swift in Sources */,
 				50F3B1342A914A7B00C872A2 /* ContentView.swift in Sources */,

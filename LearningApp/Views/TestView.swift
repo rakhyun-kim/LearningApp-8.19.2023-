@@ -74,7 +74,7 @@ struct TestView: View {
                                                 .frame(height: 48)
                                         }
                                     }
-                                   
+                                    
                                     Text(model.currentQuestion!.answers[index])
                                 }
                             }
@@ -84,7 +84,7 @@ struct TestView: View {
                     .accentColor(.black)
                     .padding()
                 }
-
+                
                 // Submit Button
                 
                 Button {
@@ -123,15 +123,17 @@ struct TestView: View {
                     .padding()
                 }
                 .disabled(selectedAnswerIndex == nil)
-
+                
                 
             }
             .navigationTitle("\(model.currentModule?.category ?? "") Test")
         }
         else {
-            // Test has't loaded yet
-            ProgressView()
+            // If current question is nil, we show the result view
+            TestResultView(numCorrect: numCorrect)
         }
+
+    
     }
     
     var buttonText:String {
